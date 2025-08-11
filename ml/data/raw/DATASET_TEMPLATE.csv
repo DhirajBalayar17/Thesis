@@ -1,0 +1,6 @@
+chest_cm,waist_cm,height_cm,weight_kg,age,shoulder_cm,hip_cm,size,style,fit,occasion,brand_preference
+95,80,175,70,25,45,95,M,casual,regular,weekend,unisex
+100,85,180,75,30,47,98,L,formal,slim,work,premium
+105,90,185,80,28,48,100,L,casual,loose,party,streetwear
+110,95,190,85,35,50,102,XL,formal,regular,date,classic
+115,100,195,90,40,52,105,XL,casual,loose,weekend,comfort

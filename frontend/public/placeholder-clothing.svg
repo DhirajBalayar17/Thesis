@@ -1,0 +1,15 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <g transform="translate(200, 200)">
+    <!-- T-shirt icon -->
+    <path d="M-80,-60 L-60,-60 L-60,-40 L-40,-40 L-40,-60 L-20,-60 L-20,-40 L0,-40 L0,-60 L20,-60 L20,-40 L40,-40 L40,-60 L60,-60 L60,-40 L80,-40 L80,60 L-80,60 Z" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+    <!-- Sleeves -->
+    <rect x="-80" y="-40" width="20" height="20" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+    <rect x="60" y="-40" width="20" height="20" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+    <!-- Neck -->
+    <circle cx="0" cy="-50" r="8" fill="#9ca3af"/>
+    <!-- Text -->
+    <text x="0" y="20" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">No Image</text>
+    <text x="0" y="40" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">Available</text>
+  </g>
+</svg>

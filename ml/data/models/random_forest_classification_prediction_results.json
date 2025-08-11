@@ -1,0 +1,120 @@
+{
+  "model_used": "random_forest_classification",
+  "input_data": [
+    {
+      "chest_cm": 95,
+      "waist_cm": 80,
+      "height_cm": 170,
+      "weight_kg": 70,
+      "age": 25,
+      "shoulder_cm": 45,
+      "hip_cm": 95,
+      "style": "casual",
+      "fit": "regular",
+      "occasion": "daily",
+      "brand_preference": "brand1"
+    },
+    {
+      "chest_cm": 100,
+      "waist_cm": 85,
+      "height_cm": 175,
+      "weight_kg": 75,
+      "age": 30,
+      "shoulder_cm": 47,
+      "hip_cm": 100,
+      "style": "formal",
+      "fit": "slim",
+      "occasion": "work",
+      "brand_preference": "brand2"
+    },
+    {
+      "chest_cm": 105,
+      "waist_cm": 90,
+      "height_cm": 180,
+      "weight_kg": 80,
+      "age": 35,
+      "shoulder_cm": 49,
+      "hip_cm": 105,
+      "style": "casual",
+      "fit": "regular",
+      "occasion": "daily",
+      "brand_preference": "brand1"
+    },
+    {
+      "chest_cm": 110,
+      "waist_cm": 95,
+      "height_cm": 185,
+      "weight_kg": 85,
+      "age": 40,
+      "shoulder_cm": 51,
+      "hip_cm": 110,
+      "style": "formal",
+      "fit": "slim",
+      "occasion": "work",
+      "brand_preference": "brand2"
+    },
+    {
+      "chest_cm": 115,
+      "waist_cm": 100,
+      "height_cm": 190,
+      "weight_kg": 90,
+      "age": 45,
+      "shoulder_cm": 53,
+      "hip_cm": 115,
+      "style": "casual",
+      "fit": "regular",
+      "occasion": "daily",
+      "brand_preference": "brand1"
+    }
+  ],
+  "predictions": [
+    "XS",
+    "S",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "prediction_probabilities": [
+    [
+      0.01,
+      0.02,
+      0.26,
+      0.04,
+      0.66,
+      0.01
+    ],
+    [
+      0.01,
+      0.3,
+      0.68,
+      0.0,
+      0.01,
+      0.0
+    ],
+    [
+      0.86,
+      0.03,
+      0.0,
+      0.1,
+      0.0,
+      0.01
+    ],
+    [
+      0.02,
+      0.01,
+      0.0,
+      0.9,
+      0.01,
+      0.06
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.7
+    ]
+  ],
+  "timestamp": "2025-08-19T13:21:54.167643"
+}

@@ -1,0 +1,54 @@
+{
+  "total_models": 1,
+  "best_model": "random_forest_classification",
+  "best_score": 1.0,
+  "models": {
+    "random_forest_classification": {
+      "algorithm": "random_forest",
+      "task_type": "classification",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      }
+    }
+  }
+}

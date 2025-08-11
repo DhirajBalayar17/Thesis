@@ -1,0 +1,92 @@
+# ML Training Configuration
+# Fashion AI Thesis - Model Configuration
+
+# Data Configuration
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  models_path: "data/models/"
+  images_path: "data/images/"
+  supported_formats: [".csv", ".xlsx", ".xls", ".json", ".txt"]
+  dataset_files:
+    - "fashion_dataset.csv"
+    - "body_measurements.xlsx"
+    - "style_preferences.json"
+  image_index: "data/images/index.csv"
+
+# Model Configuration
+model:
+  type: "classification"
+  algorithm: "random_forest"
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+    random_state: 42
+  neural_network:
+    hidden_layers: [64, 32, 16]
+    activation: "relu"
+    dropout: 0.2
+    learning_rate: 0.001
+    epochs: 100
+    batch_size: 32
+
+# Training Configuration
+training:
+  test_size: 0.2
+  validation_size: 0.1
+  random_state: 42
+  cross_validation_folds: 5
+  feature_engineering:
+    scale_features: true
+    handle_missing_values: true
+    encode_categorical: true
+    create_interactions: false
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1_score"
+    - "confusion_matrix"
+  regression_metrics:
+    - "mse"
+    - "rmse"
+    - "mae"
+    - "r2_score"
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 5001
+  debug: false
+  cors:
+    origins: ["http://localhost:3000", "http://localhost:5000"]
+    methods: ["GET", "POST", "PUT", "DELETE"]
+
+# Clothing Recommendation Configuration
+recommendations:
+  max_recommendations: 5
+  include_images: true
+  size_priority: true
+  style_matching: true
+  fit_preference: true
+  occasion_filtering: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "logs/training.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Output Configuration
+output:
+  save_model: true
+  save_preprocessor: true
+  save_metrics: true
+  save_predictions: true
+  version: "1.0.0"
+  description: "Fashion AI Thesis Model - Upper Body Clothing Recommendations"
